@@ -1,0 +1,91 @@
+html{
+	-webkit-font-smoothing:antialiased;
+}
+
+body {
+	background: #f6f1e7;
+}
+
+.siteTitleWrap {
+	margin: 0 auto;
+	width: 327px;
+}
+
+#siteTitleLeft {	
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+
+}
+
+#siteTitleRight {	
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 42px;
+
+}
+
+h1 {
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 42px;
+	text-align: center;
+}
+
+h2 {
+	color: #8d8d8d;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+
+/*Header*/
+.header{
+	/*border:1px solid pink;*/
+	width: 1080px;
+	margin: 0 auto;
+}
+/*Cards*/
+.gridWrapper {
+	/*border: 1px solid red;*/
+	width: 1080px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.cardWrapper {
+	/*border: 1px solid blue;*/
+	width: 255px;
+}
+
+.card {
+	border: 1px solid #c8c7cc;
+	background: #fff;
+	width: 255px;
+	height: 388px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; 	
+}
+
+.cardHeader {
+	border-bottom: 1px solid #c8c7cc;
+	height: 36px;
+
+}
+
+.cardTitle {
+	float: left;
+	padding: 0px 16px;
+}
+
+.cardElement {
+	float: right;
+	padding: 12px 16px;
+
+}
