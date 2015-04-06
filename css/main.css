@@ -8,14 +8,14 @@ body {
 
 .siteTitleWrap {
 	margin: 0 auto;
-	width: 327px;
+	width: 388px;
 }
 
 #siteTitleLeft {	
 	color: #000;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
-	font-size: 42px;
+	font-size: 50px;
 
 }
 
@@ -23,7 +23,7 @@ body {
 	color: #000;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-	font-size: 42px;
+	font-size: 50px;
 
 }
 
@@ -90,11 +90,23 @@ h2 {
 
 }
 
-.cardImg {
+.cardProfile {
+	background: -webkit-linear-gradient(0deg, #e7e7e7, #f1f1f1); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(0deg, #e7e7e7, #f1f1f1); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(0deg, #e7e7e7, #f1f1f1); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(0deg, #e7e7e7, #f1f1f1); /* Standard syntax */
 	border-bottom: 1px solid #c8c7cc;
+	position: relative;
 	height: 168px;
-	background: -webkit-linear-gradient(180deg, red, blue); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(180deg, red, blue); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(180deg, red, blue); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(180deg, red, blue); /* Standard syntax */
+}
+
+img.cardProfileImg {
+	width: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+  -webkit-filter: saturate(2);
+  filter: saturate(2);
 }
