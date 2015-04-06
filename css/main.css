@@ -39,7 +39,7 @@ h2 {
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 }
 
 
@@ -67,7 +67,7 @@ h2 {
 	border: 1px solid #c8c7cc;
 	background: #fff;
 	width: 255px;
-	height: 388px;
+	height: 387px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px; 	
@@ -81,7 +81,7 @@ h2 {
 
 .cardTitle {
 	float: left;
-	padding: 0px 16px;
+	padding: 0 16px;
 }
 
 .cardElement {
@@ -110,3 +110,41 @@ img.cardProfileImg {
   -webkit-filter: saturate(2);
   filter: saturate(2);
 }
+
+
+ul.cardColor {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.primaryColor {
+	height: 52px;
+}
+
+.secondaryColor {
+	height: 26px;
+}
+
+.roundBottomCorners {
+	-moz-border-radius: 0 0 9px 9px;
+	-webkit-border-radius: 0 0 9px 9px;
+}
+
+
+#squirtlePrimaryColorA {
+	background-color: #71cee8;
+}
+#squirtlePrimaryColorB {
+	background-color: #d97359;
+}
+#squirtleSecondaryColorA {
+	background-color: #fae0ad;
+}
+#squirtleSecondaryColorB {
+	background-color: #71cee8;
+}
+#squirtleSecondaryColorC {
+	background-color: #e79b8a;
+}
+
