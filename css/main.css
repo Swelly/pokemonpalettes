@@ -60,20 +60,24 @@ h2 {
 
 .cardWrapper {
 	/*border: 1px solid blue;*/
+	position: absolute;
+	z-index: 1;
 	width: 255px;
 }
 
 .card {
+	position: absolute;
+	/*z-index: 2;*/
 	border: 1px solid #c8c7cc;
-	background: #fff;
 	width: 255px;
-	height: 387px;
+	height: 388px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px; 	
 }
 
 .cardHeader {
+	background: #fff;
 	border-bottom: 1px solid #c8c7cc;
 	height: 36px;
 
@@ -126,11 +130,15 @@ ul.cardColor {
 	height: 26px;
 }
 
+.roundTopCorners {
+	-moz-border-radius: 9px 9px 0 0;
+	-webkit-border-radius: 9px 9px 0 0;
+}
+
 .roundBottomCorners {
 	-moz-border-radius: 0 0 9px 9px;
 	-webkit-border-radius: 0 0 9px 9px;
 }
-
 
 #squirtlePrimaryColorA {
 	background-color: #71cee8;
