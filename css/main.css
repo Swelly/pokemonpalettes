@@ -3,6 +3,8 @@ html{
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	background: #efefef;
 	font-family: 'Cabin', sans-serif;
 	font-weight: 500;
@@ -11,32 +13,39 @@ body {
 
 }
 
-.siteTitleWrap {
+/*------------------------*\
+TYPOGRAPHY
+\*------------------------*/
+.siteTitle {
 	margin: 0 auto;
-	width: 388px;
+	text-align: center;
 }
 
-#siteTitleLeft {	
+.siteTitleLeft {	
 	color: #000;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
-	font-size: 50px;
 
 }
 
-#siteTitleRight {	
+.siteTitleRight {	
 	color: #000;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-	font-size: 50px;
 
+}
+
+@media (max-width: 600px) {
+  .reducto {
+    font-size: 1.5rem;
+  }
 }
 
 h1 {
 	color: #000;
 	font-family: 'Nunito', sans-serif;
-	font-size: 42px;
-	text-align: center;
+	font-size: 50px;
+	margin: 0;
 }
 
 h2 {
@@ -49,21 +58,24 @@ h2 {
 
 
 
-/*Header*/
+/*------------------------*\
+HEADER
+\*------------------------*/
+#header{
+	padding: 28px 0;
+}
 
-/*Cards*/
+
 .wrapper {
-	border: 1px solid green;
 	text-align: center;
 	display: block;
 	overflow-x: visible;
 	overflow-y: visible;
 }
 
-.cardWrapper {
-	width: 255px;
-}
-
+/*------------------------*\
+CARDS
+\*------------------------*/
 .card li, .cardProfile {
 	-moz-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
 	-webkit-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
@@ -78,7 +90,7 @@ h2 {
 }
 
 .column {
-	border: 1px solid red;
+	padding: 20px 0 0;
 	margin: 0 10px;
 	display: inline-block;
 
@@ -139,7 +151,9 @@ ul.cardColor {
 }
 
 
-
+/*------------------------*\
+COLORS
+\*------------------------*/
 .primaryColor {
 	float: left;
 	width: 223px;
@@ -175,7 +189,9 @@ ul.cardColor {
 	color: #fff;
 }
 
-
+/*------------------------*\
+UNIQUE POKEMON COLORS
+\*------------------------*/
 #squirtlePrimaryColorA {
 	background-color: #71cee8;
 }
