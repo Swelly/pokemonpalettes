@@ -125,7 +125,6 @@ CARDS
 .cardProfile {
 
 	background: white;
-	
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 	position: relative;
 	height: 168px;
@@ -156,13 +155,13 @@ COLORS
 .primaryColor {
 	float: left;
 	width: 223px;
-	padding: 26px 16px 6px;
+	padding: 34px 16px 6px;
 }
 
 .secondaryColor {
 	float: left;
 	width: 223px;
-	padding: 6px 16px 6px;
+	padding: 14px 16px 6px;
 }
 
 
