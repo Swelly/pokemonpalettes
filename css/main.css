@@ -50,16 +50,11 @@ h2 {
 
 
 /*Header*/
-.header{
-	/*border:1px solid pink;*/
-	width: 1080px;
-	margin: 0 auto;
-}
+
 /*Cards*/
-.gridWrapper {
+.wrapper {
 	/*border: 1px solid red;*/
 	width: 1080px;
-	height: 500px;
 	margin: 0 auto;
 }
 
