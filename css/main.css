@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-	color: #8d8d8d;
+	color: rgba(0,0,0,0.8);
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -59,26 +59,44 @@ h2 {
 }
 
 .cardWrapper {
-	/*border: 1px solid blue;*/
-	position: absolute;
-	z-index: 1;
 	width: 255px;
+	height: 390px;
 }
+
+.card li, .cardProfile {
+	-moz-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+}
+
+.card li:last-child {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	/*box-shadow: 0 1px 1px -1px rgba(0,0,0,0.5) inset;*/
+	-moz-border-radius: 0 0 9px 9px;
+	-webkit-border-radius: 0 0 9px 9px;
+	border-radius: 0 0 9px 9px;
+}
+
+
 
 .card {
 	position: absolute;
-	/*z-index: 2;*/
-	border: 1px solid #c8c7cc;
+	z-index: 1;
+/*	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;*/
 	width: 255px;
-	height: 388px;
+	height: 390px;
+	/*border: 1px solid;*/	
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px; 	
 }
 
 .cardHeader {
+	box-shadow: 0 1px 1px -1px rgba(0,0,0,0.4) inset, -1px 0 1px -1px rgba(0,0,0,0.4) inset, 1px 0 1px -1px rgba(0,0,0,0.4) inset;
 	background: #fff;
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
 	height: 36px;
 
 }
@@ -99,7 +117,7 @@ h2 {
   	background: -o-linear-gradient(0deg, #e7e7e7, #f1f1f1); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(0deg, #e7e7e7, #f1f1f1); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(0deg, #e7e7e7, #f1f1f1); /* Standard syntax */
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
 	position: relative;
 	height: 168px;
 }
@@ -131,13 +149,8 @@ ul.cardColor {
 }
 
 .roundTopCorners {
-	-moz-border-radius: 9px 9px 0 0;
-	-webkit-border-radius: 9px 9px 0 0;
-}
-
-.roundBottomCorners {
-	-moz-border-radius: 0 0 9px 9px;
-	-webkit-border-radius: 0 0 9px 9px;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
 }
 
 #squirtlePrimaryColorA {
