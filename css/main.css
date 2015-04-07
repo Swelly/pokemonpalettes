@@ -56,6 +56,8 @@ h2 {
 	border: 1px solid green;
 	text-align: center;
 	display: block;
+	overflow-x: visible;
+	overflow-y: visible;
 }
 
 .cardWrapper {
@@ -70,7 +72,6 @@ h2 {
 
 .card li:last-child {
 	border-bottom: 1px solid rgba(0,0,0,0.1);
-	/*box-shadow: 0 1px 1px -1px rgba(0,0,0,0.5) inset;*/
 	-moz-border-radius: 0 0 9px 9px;
 	-webkit-border-radius: 0 0 9px 9px;
 	border-radius: 0 0 9px 9px;
@@ -79,19 +80,12 @@ h2 {
 .column {
 	border: 1px solid red;
 	margin: 0 10px;
-	width: 255px; 
 	display: inline-block;
+
 }
 
 .card {
-	position: absolute;
-	z-index: 1;
-/*	-webkit-box-sizing: border-box; 
-    -moz-box-sizing: border-box;    
-    box-sizing: border-box;*/
 	width: 255px;
-	height: 390px;
-	/*border: 1px solid;*/	
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px; 	
