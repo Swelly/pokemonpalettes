@@ -53,9 +53,9 @@ h2 {
 
 /*Cards*/
 .wrapper {
-	/*border: 1px solid red;*/
-	width: 1080px;
-	margin: 0 auto;
+	border: 1px solid green;
+	text-align: center;
+	display: block;
 }
 
 .cardWrapper {
@@ -76,7 +76,12 @@ h2 {
 	border-radius: 0 0 9px 9px;
 }
 
-
+.column {
+	border: 1px solid red;
+	margin: 0 10px;
+	width: 255px; 
+	display: inline-block;
+}
 
 .card {
 	position: absolute;
