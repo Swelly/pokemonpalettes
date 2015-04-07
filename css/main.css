@@ -139,8 +139,8 @@ img.cardProfileImg {
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
-  -webkit-filter: saturate(2);
-  filter: saturate(2);
+  -webkit-filter: saturate(1.5);
+  filter: saturate(1.5);
 }
 
 
