@@ -3,7 +3,12 @@ html{
 }
 
 body {
-	background: #f6f1e7;
+	background: #efefef;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+
 }
 
 .siteTitleWrap {
@@ -60,7 +65,6 @@ h2 {
 
 .cardWrapper {
 	width: 255px;
-	height: 390px;
 }
 
 .card li, .cardProfile {
@@ -140,18 +144,43 @@ ul.cardColor {
 	padding: 0;
 }
 
+
+
 .primaryColor {
-	height: 52px;
+	float: left;
+	width: 223px;
+	padding: 26px 16px 6px;
 }
 
 .secondaryColor {
-	height: 26px;
+	float: left;
+	width: 223px;
+	padding: 6px 16px 6px;
 }
+
 
 .roundTopCorners {
 	-moz-border-radius: 10px 10px 0 0;
 	-webkit-border-radius: 10px 10px 0 0;
 }
+
+.colorTitle {
+	float: left;
+}
+
+.hex {
+	float: right;
+	text-transform: uppercase;
+}
+
+.dark{
+	color: rgba(0,0,0,0.8);
+}
+
+.light {
+	color: #fff;
+}
+
 
 #squirtlePrimaryColorA {
 	background-color: #71cee8;
