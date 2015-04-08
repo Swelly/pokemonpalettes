@@ -1,0 +1,287 @@
+html{
+	-webkit-font-smoothing:antialiased;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #F0F0F0;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+
+}
+
+/*------------------------*\
+TYPOGRAPHY
+\*------------------------*/
+.siteTitle {
+	text-align: center;
+}
+
+.siteTitleLeft {	
+	font-weight: 700;
+
+}
+
+.siteTitleRight {	
+	font-weight: 300;
+	color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+
+}
+
+@media (max-width: 600px) {
+  .reducto {
+    font-size: 1.5rem;
+  }
+}
+
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+	margin: 0;
+}
+
+h2 {
+	color: rgba(0,0,0,0.8);
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+}
+
+.dark {
+	color: rgba(0,0,0,0.8);
+}
+
+.light {
+	color: #fff;
+}
+
+/*------------------------*\
+HEADER
+\*------------------------*/
+#header{
+	padding: 28px 0;
+}
+
+
+.wrapper {
+	text-align: center;
+	display: block;
+	overflow-x: visible;
+	overflow-y: visible;
+}
+
+/*------------------------*\
+CARDS
+\*------------------------*/
+.card li:first-child {
+	-moz-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+}
+
+.card li {
+	-moz-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+}
+
+.cardProfile {
+	-moz-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.5) inset, 1px 0 1px -1px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.5) inset, 1px 0 1px -1px rgba(0,0,0,0.5) inset;
+	box-shadow: -1px 0 1px -1px rgba(0,0,0,0.5) inset, 1px 0 1px -1px rgba(0,0,0,0.5) inset;
+}
+.card li:last-child {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	-moz-border-radius: 0 0 9px 9px;
+	-webkit-border-radius: 0 0 9px 9px;
+	border-radius: 0 0 9px 9px;
+}
+
+.column {
+	padding: 20px 0 0;
+	margin: 0 10px;
+	display: inline-block;
+
+}
+
+.card {
+	width: 255px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	letter-spacing: 0.5px; 	
+}
+
+.cardHeader {
+	box-shadow: 0 1px 1px -1px rgba(0,0,0,0.5) inset, -1px 0 1px -1px rgba(0,0,0,0.5) inset, 1px 0 1px -1px rgba(0,0,0,0.5) inset;
+	background: #fff;
+	border-bottom: 1px solid rgba(0,0,0,0.13);
+	height: 36px;
+
+}
+
+.cardTitle {
+	float: left;
+	padding: 0 16px;
+}
+
+.cardElement {
+	float: right;
+	padding: 12px 16px;
+
+}
+
+.cardProfile {
+
+	background: white;
+/*	border-bottom: 1px solid rgba(0,0,0,0.2);
+*/	position: relative;
+	height: 168px;
+}
+
+img.cardProfileImg {
+	width: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+  -webkit-filter: saturate(1.5);
+  filter: saturate(1.5);
+}
+
+
+ul.cardColor {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*------------------------*\
+COLORS
+\*------------------------*/
+.primaryColor {
+	float: left;
+	width: 223px;
+	padding: 30px 16px 10px;
+}
+
+.secondaryColor {
+	float: left;
+	width: 223px;
+	padding: 10px 16px 10px;
+}
+
+
+.roundTopCorners {
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+}
+
+.colorTitle {
+	float: left;
+}
+
+.hex {
+	float: right;
+	text-transform: uppercase;
+}
+
+.dark{
+	color: rgba(0,0,0,0.8);
+}
+
+.light {
+	color: #fff;
+}
+
+/*------------------------*\
+  ANIMATIONS
+\*------------------------*/
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
+/*------------------------*\
+UNIQUE POKEMON COLORS
+\*------------------------*/
+#squirtlePrimaryColorA {
+	background-color: #71cee8;
+}
+#squirtlePrimaryColorB {
+	background-color: #d97359;
+}
+#squirtleSecondaryColorA {
+	background-color: #fae0ad;
+}
+#squirtleSecondaryColorB {
+	background-color: #71cee8;
+}
+#squirtleSecondaryColorC {
+	background-color: #e79b8a;
+}
+
+#bulbasaurPrimaryColorA {
+	background-color: #7CD2A9;
+}
+#bulbasaurPrimaryColorB {
+	background-color: #72BD80;
+}
+#bulbasaurSecondaryColorA {
+	background-color: #2F8662;
+}
+#bulbasaurSecondaryColorB {
+	background-color: #499B5F;
+}
+#bulbasaurSecondaryColorC {
+	background-color: #CB8BA8;
+}
+
+#charmanderPrimaryColorA {
+	background-color: #FFA26A;
+}
+#charmanderPrimaryColorB {
+	background-color: #FAE5C2;
+}
+#charmanderSecondaryColorA {
+	background-color: #FF5D2A;
+}
+#charmanderSecondaryColorB {
+	background-color: #FFD94F;
+}
+#charmanderSecondaryColorC {
+	background-color: #FF452A;
+}
+
+#pikachuPrimaryColorA {
+	background-color: #FFD062;
+}
+#pikachuPrimaryColorB {
+	background-color: #F2C25A;
+}
+#pikachuSecondaryColorA {
+	background-color: #946231;
+}
+#pikachuSecondaryColorB {
+	background-color: #FB5041;
+}
+#pikachuSecondaryColorC {
+	background-color: #FD6351;
+}
+
