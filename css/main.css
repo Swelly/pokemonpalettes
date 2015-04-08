@@ -16,7 +16,6 @@ body {
 TYPOGRAPHY
 \*------------------------*/
 .siteTitle {
-	margin: 0 auto;
 	text-align: center;
 }
 
@@ -27,6 +26,11 @@ TYPOGRAPHY
 
 .siteTitleRight {	
 	font-weight: 300;
+	color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
 
 }
 
@@ -50,7 +54,7 @@ h2 {
 	letter-spacing: 0.5px;
 }
 
-.dark, .siteTitle {
+.dark {
 	color: rgba(0,0,0,0.8);
 }
 
@@ -198,6 +202,21 @@ COLORS
 .light {
 	color: #fff;
 }
+
+/*------------------------*\
+  ANIMATIONS
+\*------------------------*/
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
 
 /*------------------------*\
 UNIQUE POKEMON COLORS
