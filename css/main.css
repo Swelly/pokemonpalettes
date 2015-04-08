@@ -167,13 +167,13 @@ COLORS
 .primaryColor {
 	float: left;
 	width: 223px;
-	padding: 34px 16px 6px;
+	padding: 30px 16px 10px;
 }
 
 .secondaryColor {
 	float: left;
 	width: 223px;
-	padding: 14px 16px 6px;
+	padding: 10px 16px 10px;
 }
 
 
