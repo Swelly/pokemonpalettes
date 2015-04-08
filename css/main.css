@@ -9,7 +9,6 @@ body {
 	font-family: 'Cabin', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
-	letter-spacing: 0.5px;
 
 }
 
@@ -22,15 +21,11 @@ TYPOGRAPHY
 }
 
 .siteTitleLeft {	
-	color: #000;
-	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 
 }
 
 .siteTitleRight {	
-	color: #000;
-	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 
 }
@@ -42,7 +37,6 @@ TYPOGRAPHY
 }
 
 h1 {
-	color: #000;
 	font-family: 'Nunito', sans-serif;
 	font-size: 50px;
 	margin: 0;
@@ -56,7 +50,13 @@ h2 {
 	letter-spacing: 0.5px;
 }
 
+.dark, .siteTitle {
+	color: rgba(0,0,0,0.8);
+}
 
+.light {
+	color: #fff;
+}
 
 /*------------------------*\
 HEADER
@@ -76,12 +76,23 @@ HEADER
 /*------------------------*\
 CARDS
 \*------------------------*/
-.card li, .cardProfile {
+.card li:first-child {
+	-moz-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+	box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
+}
+
+.card li {
 	-moz-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
 	-webkit-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
 	box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
 }
 
+.cardProfile {
+	-moz-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.5) inset, 1px 0 1px -1px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.5) inset, 1px 0 1px -1px rgba(0,0,0,0.5) inset;
+	box-shadow: -1px 0 1px -1px rgba(0,0,0,0.5) inset, 1px 0 1px -1px rgba(0,0,0,0.5) inset;
+}
 .card li:last-child {
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 	-moz-border-radius: 0 0 9px 9px;
@@ -100,7 +111,8 @@ CARDS
 	width: 255px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border-radius: 10px; 	
+	border-radius: 10px;
+	letter-spacing: 0.5px; 	
 }
 
 .cardHeader {
@@ -125,8 +137,8 @@ CARDS
 .cardProfile {
 
 	background: white;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
-	position: relative;
+/*	border-bottom: 1px solid rgba(0,0,0,0.2);
+*/	position: relative;
 	height: 168px;
 }
 
@@ -205,4 +217,21 @@ UNIQUE POKEMON COLORS
 #squirtleSecondaryColorC {
 	background-color: #e79b8a;
 }
+
+#bulbasaurPrimaryColorA {
+	background-color: #7CD2A9;
+}
+#bulbasaurPrimaryColorB {
+	background-color: #72BD80;
+}
+#bulbasaurSecondaryColorA {
+	background-color: #2F8662;
+}
+#bulbasaurSecondaryColorB {
+	background-color: #499B5F;
+}
+#bulbasaurSecondaryColorC {
+	background-color: #CB8BA8;
+}
+
 
