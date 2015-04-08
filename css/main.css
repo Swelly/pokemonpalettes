@@ -234,4 +234,35 @@ UNIQUE POKEMON COLORS
 	background-color: #CB8BA8;
 }
 
+#charmanderPrimaryColorA {
+	background-color: #FFA26A;
+}
+#charmanderPrimaryColorB {
+	background-color: #FAE5C2;
+}
+#charmanderSecondaryColorA {
+	background-color: #FF5D2A;
+}
+#charmanderSecondaryColorB {
+	background-color: #FFD94F;
+}
+#charmanderSecondaryColorC {
+	background-color: #FF452A;
+}
+
+#pikachuPrimaryColorA {
+	background-color: #FFD062;
+}
+#pikachuPrimaryColorB {
+	background-color: #F2C25A;
+}
+#pikachuSecondaryColorA {
+	background-color: #946231;
+}
+#pikachuSecondaryColorB {
+	background-color: #FB5041;
+}
+#pikachuSecondaryColorC {
+	background-color: #FD6351;
+}
 
