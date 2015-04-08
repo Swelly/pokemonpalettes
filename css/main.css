@@ -63,23 +63,41 @@ h2 {
 }
 
 /*------------------------*\
-HEADER
+HEADER & FOOTER
 \*------------------------*/
 #header{
 	padding: 28px 0;
 }
 
-
+#footer {
+	color: rgba(0,0,0,0.3);
+}
 .wrapper {
-	text-align: center;
-	display: block;
-	overflow-x: visible;
-	overflow-y: visible;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	max-width: 1060px;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	padding: 1px 14px;
 }
 
 /*------------------------*\
 CARDS
 \*------------------------*/
+
+.columnWrapper {
+
+	text-align: center;
+	display: block;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding: 0 0 4px;
+}
+
+/*------------------------*\
+CARDS
+\*------------------------*/
+
+
 .card li:first-child {
 	-moz-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
 	-webkit-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
@@ -105,7 +123,7 @@ CARDS
 }
 
 .column {
-	padding: 20px 0 0;
+	padding: 20px 0 10px;
 	margin: 0 10px;
 	display: inline-block;
 
