@@ -77,7 +77,7 @@ HEADER & FOOTER
 	margin: 0 auto;
 	max-width: 1060px;
 	border-top: 1px solid rgba(0,0,0,0.1);
-	padding: 1px 14px;
+	padding: 8px 14px 14px;
 }
 
 /*------------------------*\
@@ -85,18 +85,19 @@ CARDS
 \*------------------------*/
 
 .columnWrapper {
-
 	text-align: center;
 	display: block;
 	overflow-x: visible;
 	overflow-y: visible;
-	padding: 0 0 4px;
+	padding: 0 0 28px
 }
 
-/*------------------------*\
-CARDS
-\*------------------------*/
-
+	
+.cardWrapper{
+	width: 255px;
+	display: inherit;
+	position: relative;
+}	
 
 .card li:first-child {
 	-moz-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.3) inset, -1px 0 1px -1px rgba(0,0,0,0.3) inset, 1px 0 1px -1px rgba(0,0,0,0.3) inset;
@@ -123,14 +124,20 @@ CARDS
 }
 
 .column {
-	padding: 20px 0 10px;
+	/*border: 1px solid green;*/
+	padding: 10px 0 10px;
 	margin: 0 10px;
 	display: inline-block;
+	max-width: 255px;
+	position: relative;
+	vertical-align: top;
 
 }
 
 .card {
-	width: 255px;
+	/*border: 1px solid blue;*/
+	display: inherit;
+	padding: 10px 0 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -210,6 +217,8 @@ COLORS
 
 .hex {
 	float: right;
+	font-family: 'Inconsolata';
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
