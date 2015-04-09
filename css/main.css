@@ -249,6 +249,10 @@ COLORS
 UNIQUE POKEMON COLORS
 \*------------------------*/
 
+
+/*------------------------*\
+COLUMN 1
+\*------------------------*/
 #bulbasaurPrimaryColorA {
 	background-color: #7CD2A9;
 }
@@ -281,6 +285,9 @@ UNIQUE POKEMON COLORS
 	background-color: #126E68;
 }
 
+/*------------------------*\
+COLUMN 2
+\*------------------------*/
 #charmanderPrimaryColorA {
 	background-color: #FFA26A;
 }
@@ -297,6 +304,25 @@ UNIQUE POKEMON COLORS
 	background-color: #FF452A;
 }
 
+#jigglypuffPrimaryColorA {
+	background-color: #ffc8d5;
+}
+#jigglypuffPrimaryColorB {
+	background-color: #F0A5B4;
+}
+#jigglypuffSecondaryColorA {
+	background-color: #4D5772;
+}
+#jigglypuffSecondaryColorB {
+	background-color: #008AA5;
+}
+#jigglypuffSecondaryColorC {
+	background-color: #7DCBDA;
+}
+
+/*------------------------*\
+COLUMN 3
+\*------------------------*/
 #pikachuPrimaryColorA {
 	background-color: #FFD062;
 }
@@ -313,6 +339,9 @@ UNIQUE POKEMON COLORS
 	background-color: #FD6351;
 }
 
+/*------------------------*\
+COLUMN 4
+\*------------------------*/
 #squirtlePrimaryColorA {
 	background-color: #71cee8;
 }
