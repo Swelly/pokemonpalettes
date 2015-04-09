@@ -339,6 +339,21 @@ COLUMN 3
 	background-color: #FD6351;
 }
 
+#meowthPrimaryColorA {
+	background-color: #faecbf;
+}
+#meowthPrimaryColorB {
+	background-color: #CE893E;
+}
+#meowthSecondaryColorA {
+	background-color: #FFD185;
+}
+#meowthSecondaryColorB {
+	background-color: #FFDA9C;
+}
+#meowthSecondaryColorC {
+	background-color: #635D58;
+}
 /*------------------------*\
 COLUMN 4
 \*------------------------*/
@@ -356,4 +371,20 @@ COLUMN 4
 }
 #squirtleSecondaryColorC {
 	background-color: #e79b8a;
+}
+
+#togepiPrimaryColorA {
+	background-color: #FFEAA5;
+}
+#togepiPrimaryColorB {
+	background-color: #FBF9F3;
+}
+#togepiSecondaryColorA {
+	background-color: #BCFFFF;
+}
+#togepiSecondaryColorB {
+	background-color: #31B1DE;
+}
+#togepiSecondaryColorC {
+	background-color: #E95831;
 }
