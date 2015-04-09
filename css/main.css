@@ -248,21 +248,6 @@ COLORS
 /*------------------------*\
 UNIQUE POKEMON COLORS
 \*------------------------*/
-#squirtlePrimaryColorA {
-	background-color: #71cee8;
-}
-#squirtlePrimaryColorB {
-	background-color: #d97359;
-}
-#squirtleSecondaryColorA {
-	background-color: #fae0ad;
-}
-#squirtleSecondaryColorB {
-	background-color: #71cee8;
-}
-#squirtleSecondaryColorC {
-	background-color: #e79b8a;
-}
 
 #bulbasaurPrimaryColorA {
 	background-color: #7CD2A9;
@@ -278,6 +263,22 @@ UNIQUE POKEMON COLORS
 }
 #bulbasaurSecondaryColorC {
 	background-color: #CB8BA8;
+}
+
+#nidoranMPrimaryColorA {
+	background-color: #c98ecd;
+}
+#nidoranMPrimaryColorB {
+	background-color: #A668A7;
+}
+#nidoranMSecondaryColorA {
+	background-color: #9A5EA9;
+}
+#nidoranMSecondaryColorB {
+	background-color: #2A9F9C;
+}
+#nidoranMSecondaryColorC {
+	background-color: #126E68;
 }
 
 #charmanderPrimaryColorA {
@@ -312,3 +313,18 @@ UNIQUE POKEMON COLORS
 	background-color: #FD6351;
 }
 
+#squirtlePrimaryColorA {
+	background-color: #71cee8;
+}
+#squirtlePrimaryColorB {
+	background-color: #d97359;
+}
+#squirtleSecondaryColorA {
+	background-color: #fae0ad;
+}
+#squirtleSecondaryColorB {
+	background-color: #71cee8;
+}
+#squirtleSecondaryColorC {
+	background-color: #e79b8a;
+}
