@@ -168,10 +168,16 @@ CARDS
 
 .cardProfile {
 
-	background: white;
+/*	background: white;*/
 /*	border-bottom: 1px solid rgba(0,0,0,0.2);
 */	position: relative;
 	height: 168px;
+
+}
+
+#bulbasaur {
+	background: url ('../images/pokemon/g1_bulbasaur.png') 0 no-repeat;
+	display: inline-block;
 }
 
 img.cardProfileImg {
@@ -194,11 +200,9 @@ ul.cardColor {
 /*------------------------*\
 CARD ELEMENTS
 \*------------------------*/
-/*Why isn't this working*/
 .elementWater {
-	width: 8px;
 	height: 12px;
-	background: url('images/waterIcon.png') 0 no-repeat;
+	background: url('../images/waterIcon.png') 0 no-repeat;
 	display: inline-block;
 }
 
