@@ -191,7 +191,16 @@ ul.cardColor {
 	margin: 0;
 	padding: 0;
 }
-
+/*------------------------*\
+CARD ELEMENTS
+\*------------------------*/
+/*Why isn't this working*/
+.elementWater {
+	width: 8px;
+	height: 12px;
+	background: url('images/waterIcon.png') 0 no-repeat;
+	display: inline-block;
+}
 
 /*------------------------*\
 COLORS
