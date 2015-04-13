@@ -65,6 +65,17 @@ h2 {
 	color: #fff;
 }
 
+a {
+  color: inherit;
+  text-decoration: underline;
+  -webkit-animation: hue 60s infinite linear;
+}
+
+  a:hover {
+    color: #f35626;
+  }
+
+
 /*------------------------*\
 HEADER & FOOTER
 \*------------------------*/
