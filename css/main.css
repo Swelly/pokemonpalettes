@@ -179,17 +179,17 @@ CARDS
 
 .cardProfile {
 
-/*	background: white;*/
+	background: white;
 /*	border-bottom: 1px solid rgba(0,0,0,0.2);
 */	position: relative;
 	height: 168px;
 
 }
 
-#bulbasaur {
+/*#bulbasaur {
 	background: url ('../images/pokemon/g1_bulbasaur.png') 0 no-repeat;
 	display: inline-block;
-}
+}*/
 
 img.cardProfileImg {
 	width: 160px;
